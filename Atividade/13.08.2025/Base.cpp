@@ -1,16 +1,16 @@
-/*5.") Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20.*/
+/*6.") FaÃ§a um programa que apresente o total da soma obtido dos cem primeiros numeros 
+inteiros. ( 1 + 2 + 3 + 4 +......+100)*/
 
 #include <iostream>
 using namespace std;
 int main() 
 {
     setlocale(LC_ALL, "");
-    
-    cout << "Valores numéricos inteiros ímpares na faixa de 0 a 20:" << endl;
-    for (int i = 0; i <= 20; ++i) {
-        if (i % 2 != 0) { // Verifica se o número é ímpar (% = resto da divisão)
-            cout << i <<endl;
-        }
+     int soma = 0;
+     
+    for (int i = 0; i <= 100; ++i) {
+        soma +=i;
+        cout << "A soma dos 100 primeiros nÃºmeros ineteiros:" << soma << endl;
     }
     return 0;
 }
