@@ -1,1 +1,1 @@
-# Banco-de-Dados-Amanda-Fatec
+# Estruturas-de-Dados-Amanda-Fatec
